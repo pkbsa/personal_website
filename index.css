@@ -409,3 +409,18 @@ ul.timeline{
         margin: 0px;
     }
 }
+.page-8 {
+    background-color: #7795A8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+}
+@media (max-width: 800px) {
+    .page-8 {
+        font-size: 7vw;
+    }
+}
+.page-9{
+    background-color: #F6F1ED;
+}
