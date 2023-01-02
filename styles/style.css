@@ -571,6 +571,9 @@ ul.timeline > li:before {
   .page-10 {
     font-size: 7vw;
  }
+ .page-12{
+    color: white;
+ }
 }
 @media (max-width: 560px) {
   .page-7 {
