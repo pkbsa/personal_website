@@ -1,3 +1,6 @@
+*{
+  font-family: 'Kanit', sans-serif;
+}
 body {
   margin: 0px;
   font-family: 'Kanit', sans-serif;
@@ -45,11 +48,9 @@ a {
 .page-1 {
   background-color: #a4b4bf;
   background-image: url(../img/poko.png);
-  transition: background 300ms ease-in 200ms;
   background-position: center;
- /* Center the image */
   background-size: cover;
- /* Resize the background image to cover the entire container */
+  
 }
 .page-1 .container {
   position: relative;
@@ -458,7 +459,7 @@ ul.timeline > li:before {
   text-align: center;
   text-decoration: none;
 }
-@media (max-width: 1240px) {
+@media (max-width: 1330px) {
   .page-9 .tl-year p {
     font-size: 2vw;
  }
