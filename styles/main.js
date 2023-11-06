@@ -16,4 +16,6 @@ $(function () {
   AOS.init({
     duration: 3000,
   })
+  
+  
 });
