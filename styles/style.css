@@ -229,7 +229,10 @@ a {
 #chartdiv svg {
   max-height: 250px!important;
 }
-
+.updated{
+  font-weight: 100;
+  font-size: 0.7em;
+}
 
 .page-4 {
   background-color: #111111;
