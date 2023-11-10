@@ -233,7 +233,29 @@ a {
   font-weight: 100;
   font-size: 0.7em;
 }
-
+tr{
+  justify-content: center;
+  align-items: flex-end;
+}
+td{
+  text-align: center;
+  border: 1px solid rgb(148, 148, 148);
+  padding: 0.65em;
+}
+td img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 70px;
+  height: 55px!important;
+}
+td img:hover{
+  cursor: default;
+}
+.tech{
+  width: 115px;
+  height: 100%;
+}
 .page-4 {
   background-color: #111111;
   justify-content: center;
