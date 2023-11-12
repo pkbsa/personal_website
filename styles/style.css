@@ -207,7 +207,15 @@ a {
   background-color: white;
   border: 0;
 }
+.page-skills .social img{
+  max-width: 100%;
+}
+.page-skills a svg{
+  margin-left: 5px;
+  margin-bottom: 2px;
+  color: #1779cf;
 
+}
 .page-skills span {
   background-color: #95aab7;
   border-radius: 10px;
@@ -443,11 +451,13 @@ h5 {
 }
 
 .page-6 {
-  background-color: #F393A8;
+  background-color: #ffffff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 5em 0;
+  padding: 4em 0;
+  padding-bottom: 0;
 }
 
 .page-6 .container h3 {
@@ -458,6 +468,26 @@ h5 {
 
 .page-6 spline-viewer {
   height: 60vh !important;
+}
+.page-6 a{
+  color: #1779cf;
+}
+.page-6 .odd{
+  background-color: #F5F5F5;
+  min-height: 50vmin;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+.page-6 .even{
+  background-color: #000000;
+  min-height: 50vmin;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.page-6 #jaist{
+  background-image: url("../img/sairahus.jpg");
+  filter: blur(10px);
 }
 
 .page-7 {
